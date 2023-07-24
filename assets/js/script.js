@@ -52,3 +52,17 @@ const backTopBtn = document.querySelector("[data-back-top-btn]");
 //     backTopBtn.classList.remove("active");
 //   }
 // });
+
+
+
+// chatbot
+
+document.getElementById('chatButton').addEventListener('click', function() {
+  const chatWindow = document.getElementById('chatWindow');
+  chatWindow.style.display = 'block';
+});
+
+document.getElementById('closeButton').addEventListener('click', function() {
+  const chatWindow = document.getElementById('chatWindow');
+  chatWindow.style.display = 'none';
+});
