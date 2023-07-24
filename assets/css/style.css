@@ -91,7 +91,42 @@
 
 
 
+/* chatbot */
 
+#chatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#chatWindow {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 350px;
+  height: 430px;
+  background-color: #ffffff00;
+  
+  border-radius: 5px;
+  z-index: 9999;
+  padding: 10px;
+}
+
+#closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
 
 /*-----------------------------------*\
   #RESET
