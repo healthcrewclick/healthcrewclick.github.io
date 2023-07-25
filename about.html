@@ -1,276 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthCrew.click</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HealthCrew.click</title>
-
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/svg+xml"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
-  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
-  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
-  <link rel="preload" as="image" href="./assets/images/calories.svg">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-one.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-two.png" />
+    <link rel="preload" as="image" href="./assets/images/heart-rate.svg" />
+    <link rel="preload" as="image" href="./assets/images/calories.svg" />
+  </head>
 
-</head>
-
-<body id="top">
-
-  <!-- 
+  <body id="top">
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header active" data-header>
-    <div class="container">
+    <header class="header active" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="assets/images/logo.png"
+            alt="barbell icon"
+            aria-hidden="true"
+          />
 
-      <a href="#" class="logo">
-        <img src="assets/images/logo.png" alt="barbell icon" aria-hidden="true">
+          <span class="span heading-name" style="line-height: 0.9"
+            >HealthCrew.click<br />
+            <!-- <span style="font-size: small;">The facilitator</span> -->
+          </span>
+        </a>
 
-        <span class="span heading-name" style="line-height: 0.9;">HealthCrew.click<br>
-          <!-- <span style="font-size: small;">The facilitator</span> -->
-        </span>
-      </a>
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
 
-      <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html#home" class="navbar-link" data-nav-link
+                >Home</a
+              >
+            </li>
 
-        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#class" class="navbar-link" data-nav-link
+                >Programs</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#blog" class="navbar-link" data-nav-link
+                >Blog</a
+              >
+            </li>
+
+            <li>
+              <a href="contact.html" class="navbar-link" data-nav-link
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">Join Now</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
         </button>
+      </div>
+    </header>
 
-        <ul class="navbar-list">
-
-          <li>
-            <a href="index.html#home" class="navbar-link " data-nav-link>Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link" data-nav-link>About Us</a>
-          </li>
-
-          <li>
-            <a href="index.html#class" class="navbar-link" data-nav-link>Programs</a>
-          </li>
-
-          <li>
-            <a href="index.html#blog" class="navbar-link" data-nav-link>Blog</a>
-          </li>
-
-          <li>
-            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <a href="#" class="btn btn-secondary">Join Now</a>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </button>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-
-      <!-- 
+    <main>
+      <article>
+        <!-- 
         - #CLASS
       -->
 
       <section class="section bg-dark has-bg-image" id="class" aria-label="class"
-        style="background-image: url('./assets/images/classes-bg.png');.class { padding-block-start: calc(var(--section-padding) + 50px); }">
-        <div class="container">
+      style="background-image: url('./assets/images/classes-bg.png');.class { padding-block-start: calc(var(--section-padding) + 50px); }">
+      <h2 class="h2 section-title text-center" style="color: #fff;">
+        Meet Our Founder
+      </h2>
+          <div class="container class-card" >
+           
 
-          
-
-          <h2 class="h2 section-title text-center" style="color: whitesmoke;">HealthCrew.click</h2>
-
-          <ul class="class-list has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="class-card">
-
-                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
-                  <img src="./assets/images/about.png" width="416" height="240" loading="lazy" alt="Weight Lifting"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="title-wrapper">
-                    <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
-                      class="title-icon">
-                    <ul>
-                      <li>
-                        <h3 class="h3">
-                          Welcome to HealthCrew.click!
-                        </h3>
-                      </li>
-                      <li>
-                        <h3>Your Trusted Service Provider</h3>
-                      </li>
-                    </ul>
-                    
-
-                  </div>
-
-                  <p class="card-text">
-                      At HealthCrew.click, we are committed to promoting health, wellness, and community engagement. We offer a comprehensive range of specialized services to cater to diverse needs, ensuring the well-being of individuals and organizations alike. 
-                      With our expertise and dedication, we strive to be your trusted partner in achieving your fitness and health goals. Explore the services we provide and discover how we can make a positive impact on your community.
-                  </p>
-
-                  <h4>
-                    1. Community Fitness and Health Program:
-                  </h4>
-                  <p class="card-text">
-                    Our community fitness and health programs are designed to nurture healthier lifestyles within residential areas. We collaborate with apartment and villa communities to create customized programs that cater to the specific needs and interests of residents. 
-                    From group fitness classes to wellness workshops and personal training, we offer comprehensive solutions to enhance the well-being of community members.
-                  </p>
-                  <h4>2. Corporate Fitness and Health Program:</h4>
-                  <p class="card-text">We understand the importance of employee well-being for organizational success. Our corporate fitness and health programs focus on creating a thriving workforce. We offer a range of services, including fitness classes, health assessments, nutritional guidance, mental health support, and educational seminars. 
-                    By investing in your team's health, you can witness improved productivity, reduced absenteeism, and heightened job satisfaction.
-                  </p>
-                  <h4>3. Health and Fitness Facility Franchise Assistance:</h4>
-                  <p class="card-text">
-                    If you are interested in starting your own health and fitness facility, we provide franchise assistance to guide you through the process. Our team of experts will support you in every step, from finding the ideal location to designing the facility layout, procuring equipment, and developing effective marketing strategies. With our assistance, you can establish a successful and thriving fitness franchise.
-                  </p>
-                  <h4>4. Outdoor Event and Fun Activity Organization:</h4>
-                  <p class="card-text">
-                    We specialize in organizing outdoor events and fun activities that promote physical well-being, team bonding, and personal growth. Whether it's hiking, cycling, workshops, camping, team-building activities, or yoga and meditation sessions, we create engaging and transformative experiences that unite well-being and fun.
-                  </p>
-                  <h4>5. Club Management Service:</h4>
-                  <p class="card-text">
-                    Our club management services cater to the operational needs of clubs and organizations. From financial management and membership services to event management and communication strategies, we handle the complexities of club management, allowing you to focus on delivering a high-quality club experience.
-                  </p>
-                  <h4>
-                    6. Health Club Setup Assistance:
-                  </h4>
-                  <p class="card-text">
-                    We provide comprehensive assistance in setting up health clubs for apartment and villa communities. Our services include consultation and planning, facility design and layout, equipment procurement and installation, staff recruitment and training, program development, and ongoing management and maintenance. With our expertise, you can create a vibrant fitness hub within your community.
-                  </p>
-                  <h4>7. Digital Agency:</h4>
-                  <p class="card-text">
-                    Our digital agency services empower your digital presence. We offer graphic design, digital marketing, website development, and application design services to enhance your online visibility, attract targeted traffic, and generate leads. With our creative excellence and industry expertise, we help you stand out in the digital realm.
-                  </p>
-                  <h4>
-                    8. HR Consultancy:
-                  </h4>
-                  <p class="card-text">
-                    Our HR consultancy services provide tailored solutions to elevate your HR practices. From talent acquisition and performance management to employee engagement and training and development, we assist you in optimizing your workforce and creating a positive work environment.
-                  </p>
-                  <h4>9. Commercial Space Solutions:</h4>
-                  <p class="card-text">
-                    Finding the perfect commercial space is crucial for business success. Our commercial space solutions help you discover the ideal location to operate efficiently. We assist in property search, negotiations, lease agreements, and provide expert guidance throughout the process.
-                  </p>
-                  <h4>10. Manpower Solutions:</h4>
-                  <p class="card-text">
-                    We offer comprehensive manpower solutions to address your organization's workforce needs. Our services include recruitment, temporary staffing, contract staffing, HR outsourcing, training and development, and talent management. We help you find the right people, streamline your HR functions, and enhance operational efficiency.
-                  </p>
-                  <br>
-                  <p class="card-text">
-                    At HealthCrew.click, we pride ourselves on delivering exceptional services with a focus on client satisfaction. Let us be your trusted service provider, supporting you in achieving your fitness, health, and business goals. Contact us today to learn more about our services and how we can serve your community or organization.
-                    <br>Together, let's pave the way to a healthier, happier, and more vibrant community.
-                  </p>
-                  <div class="card-progress">
-
-                    <!-- <div class="progress-wrapper">
-                      <p class="progress-label">Read More...</p>
-
-                      <span class="progress-value">60%</span>
-                    </div> -->
-
-                    <div class="progress-bg">
-                      <div class="progress-bar" style="width: 100%"></div>
+            <ul class="class-list has-scrollbar">
+              <li class="scrollbar-item">
+                 
+                <section class="section about " id="about" aria-label="about" style="padding-top: 50px;">
+                  <div class="container founder-container">
+                    <div class="about-banner ">
+                      <img
+                        src="./assets/images/roshan.jpg"
+                        loading="lazy"
+                        alt="about banner"
+                        class="card-4"
+                        style="border-radius: 30px"
+                      />
                     </div>
 
+                    <div class="about-content">
+                      <!-- <p class="section-subtitle">About Us</p> -->
+
+                      <h2 class="h2  founder-name">Roshan Singh L</h2>
+                      <p class="founder-tag">Founder </p>
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 100%"></div>
+                      </div>
+                      <p class="section-text">
+                        Born on October 28, 1993, is a highly skilled and
+                        dedicated professional in the field of health, fitness,
+                        and personal development. With over 11 years of
+                        experience, Roshan has established himself as a leading
+                        Health Coach, Life Coach, and Wellness Coach. 
+                      </p>
+                    </div>
                   </div>
+                  <p><br>He is also the proud founder of AUM THE FACILITOR, an organization
+                    committed to empowering individuals to achieve their
+                    health and wellness goals. Throughout his career, Roshan
+                    has worked with renowned health and fitness facilities,
+                    including Gold's Gym and F45 Training. His expertise
+                    lies in helping clients reach their goals, preventing
+                    injuries, and guiding them towards adopting a healthy
+                    and balanced lifestyle. Roshan's professional
+                    credibility is reinforced by an impressive array of
+                    qualifications and certifications. He is a Certified
+                    Functional Trainer, Certified Personal Trainer, and
+                    Certified Group Coach, demonstrating his expertise in
+                    designing effective and personalized workout programs.
+                    Recognizing the significance of nutrition in overall
+                    well-being, Roshan holds diplomas in Nutrition, Yogic
+                    Nutrition, and Sports Nutrition. These qualifications
+                    enable him to provide comprehensive guidance on dietary
+                    planning and nutritional strategies tailored to
+                    individual needs. Roshan's commitment to holistic
+                    wellness is further evidenced by his certifications as a
+                    Life Coach, Holistic Health Coach, Wellness Coach, and
+                    Master Mindfulness Coach. He skillfully combines various
+                    modalities to empower individuals to enhance their
+                    physical, mental, and emotional well-being. In addition
+                    to his fitness and wellness qualifications, Roshan has
+                    pursued diplomas in Yoga, Meditation, Reiki,
+                    Acupressure, Color Therapy, Counselling, Psychotherapy,
+                    ADHD Management, Dialectical Behavior Therapy,
+                    Hypnotherapy, and NLP Life Coaching. These diverse areas
+                    of expertise allow him to provide comprehensive support
+                    and guidance to his clients. Roshan's clients have
+                    consistently praised his expertise and dedication.
+                    Positive reviews highlight his ability to provide close
+                    attention, engaging workout routines, and effective
+                    post-workout stretches that minimize muscle pain.
+                    Clients also appreciate his motivation, knowledge, and
+                    the excellent results they achieve under his guidance.
+                    With his vibrant energy and perfect technique, Roshan
+                    has earned a reputation as one of the best instructors
+                    in Bengaluru. His dedication and encouragement inspire
+                    clients to push their boundaries and strive for
+                    continuous improvement. As a Health Coach, Life Coach,
+                    and Wellness Coach, Roshan customizes exercise programs
+                    to suit individual needs, ensuring that each client
+                    receives personalized attention and achieves their
+                    desired outcomes. If you are seeking a highly skilled
+                    and passionate professional to guide you on your health
+                    and wellness journey, Roshan Singh L is an excellent
+                    choice. His extensive qualifications, glowing
+                    testimonials, and commitment to client success make him
+                    a trusted facilitator in the realm of holistic
+                    well-being.</p>
+                </section>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-                </div>
-
-              </div>
-            </li>
-
-            
-            
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #BLOG
-      -->
+      --></article>
+    </main>
 
-      
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
+    <footer class="footer">
+      <div
+        class="section footer-top bg-dark has-bg-image"
+        style="background-image: url('./assets/images/footer-bg.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="assets/images/logo2.png"
+                alt="barbell icon"
+                aria-hidden="true"
+              />
 
-    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
-      <div class="container">
+              <span class="span" style="line-height: 0.8"
+                >HealthCrew.click<br />
+                <!-- <span style="font-size: small;">The facilitator</span> -->
+              </span>
+            </a>
 
-        <div class="footer-brand">
+            <p class="footer-brand-text">
+              Passionate about health, wellness, and community. Experts in
+              specialized services.
+            </p>
 
-          <a href="#" class="logo">
-          
-<img src="assets/images/logo2.png" alt="barbell icon" aria-hidden="true">
-
-            <span class="span" style="line-height: 0.8;">HealthCrew.click<br>
-              <!-- <span style="font-size: small;">The facilitator</span> -->
-            </span>
-          </a>
-
-          <p class="footer-brand-text">
-            
-Passionate about health, wellness, and community. Experts in specialized services.
-          </p>
-
-          <!-- <div class="wrapper">
+            <!-- <div class="wrapper">
 
             <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
 
@@ -291,170 +269,168 @@ Passionate about health, wellness, and community. Experts in specialized service
             </ul>
 
           </div> -->
+          </div>
 
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Links</p>
+            </li>
+
+            <li>
+              <a href="index.html#home" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#class" class="footer-link">Programs</a>
+            </li>
+
+            <li>
+              <a href="index.htmlblog" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Contact Us</p>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+
+              <address class="address footer-link">
+                #18 damodar mdr street , Ulsoor , Banglore , India
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <a href="tel:+919160165178">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon
+                ></a>
+              </div>
+
+              <div>
+                <a href="tel:+919160165178" class="footer-link"
+                  >+91 91601 65178</a
+                >
+
+                <a href="tel:+915552348765" class="footer-link"
+                  >+91 555 234-8765</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="mailto:info@fitlife.com" class="footer-link"
+                  >info@healthcrew.click</a
+                >
+
+                <a href="mailto:services@fitlife.com" class="footer-link"
+                  >services@healthcrew.click</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Newsletter</p>
+            </li>
+
+            <li></li>
+
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title has-before">Our Links</p>
-          </li>
-
-          <li>
-            <a href="index.html#home" class="footer-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="index.html#class" class="footer-link">Programs</a>
-          </li>
-
-          <li>
-            <a href="index.htmlblog" class="footer-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="contact.html" class="footer-link">Contact Us</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title has-before">Contact Us</p>
-          </li>
-
-          <li class="footer-list-item">
-            <div class="icon">
-              <ion-icon name="location" aria-hidden="true"></ion-icon>
-            </div>
-
-            <address class="address footer-link">
-              #18 damodar mdr street , 
-Ulsoor , Banglore , India
-            </address>
-          </li>
-
-          <li class="footer-list-item">
-            <div class="icon">
-              <a href="tel:+919160165178">
-              <ion-icon name="call" aria-hidden="true"></ion-icon></a>
-            </div>
-
-            <div>
-              <a href="tel:+919160165178" class="footer-link">+91 91601 65178</a>
-
-              <a href="tel:+915552348765" class="footer-link">+91 555 234-8765</a>
-            </div>
-          </li>
-
-          <li class="footer-list-item">
-            <div class="icon">
-              <ion-icon name="mail" aria-hidden="true"></ion-icon>
-            </div>
-
-            <div>
-              <a href="mailto:info@fitlife.com" class="footer-link">info@healthcrew.click</a>
-
-              <a href="mailto:services@fitlife.com" class="footer-link">services@healthcrew.click</a>
-            </div>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title has-before">Our Newsletter</p>
-          </li>
-
-          <li>
-            
-
-          <li>
-            <ul class="social-list">
-
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
-
-            </ul>
-          </li>
-
-        </ul>
-
       </div>
-    </div>
 
-    <div class="footer-bottom">
-      <div class="container">
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2023 HealthCrew.click. All Rights Reserved By AUM The
+            Facilitator
+          </p>
 
-        <p class="copyright">
-          &copy; 2023 HealthCrew.click. All Rights Reserved By AUM The Facilitator
-        </p>
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Privacy Policy</a
+              >
+            </li>
 
-        <ul class="footer-bottom-list">
-
-          <li>
-            <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
-          </li>
-
-        </ul>
-
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Terms & Condition</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
-  </a>
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
 
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
 
-  <!-- 
+    <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

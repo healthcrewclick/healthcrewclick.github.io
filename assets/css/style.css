@@ -1483,17 +1483,34 @@ body {
 .footer-list-1{
   padding: 0 50px;
 }
+.founder-container{
+  padding-right: 200px;
+}
+
+.founder-tag{
+  color: var(--silver-metallic);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 @media (max-width:992px) {
   .social-list-1 {
     display: flex;
   }
-
+  .founder-container{
+    padding-right: 0;
+  }
   
 }
 
 @media (max-width:420px){
   .heading-name{
     font-size: 3rem;
+  }
+  .founder-container{
+    padding-right: 0;
   }
 }
