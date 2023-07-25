@@ -198,7 +198,13 @@ body {
 
 
 
-
+.program {
+  display: inline-block;
+  background-color: var(--coquelicot);
+  padding: 2px 15px;
+  margin-inline-end: 15px;
+  border-radius: var(--radius-5);
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
