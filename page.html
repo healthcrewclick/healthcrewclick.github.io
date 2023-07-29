@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthCrew.click</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-one.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-two.png" />
+    <link rel="preload" as="image" href="./assets/images/heart-rate.svg" />
+    <link rel="preload" as="image" href="./assets/images/calories.svg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header active" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="assets/images/logo.png"
+            alt="barbell icon"
+            aria-hidden="true"
+          />
+
+          <span class="span heading-name" style="line-height: 0.9"
+            >HealthCrew.click<br />
+            <!-- <span style="font-size: small;">The facilitator</span> -->
+          </span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html#home" class="navbar-link" data-nav-link
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#class" class="navbar-link" data-nav-link
+                >Programs</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#blog" class="navbar-link" data-nav-link
+                >Blog</a
+              >
+            </li>
+
+            <li>
+              <a href="contact.html" class="navbar-link" data-nav-link
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">Join Now</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #CLASS
+      -->
+
+
+      <section class="section about bg bg-dark has-bg-image about-section" 
+      style="background-image: url('./assets/images/classes-bg.png');.class { padding-block-start: calc(var(--section-padding) + 50px); }">
+        <div class="container">
+          <div >
+            <h2 class="h2 section-title" style="color: #fff;">Welcome to <br> AUM THE FACILITATOR </h2>
+            <p>Your Ultimate Destination for Tailored Community Health and Fitness Programs in Bangalore!</p>
+          </div>
+          <div>
+            <img src="assets/images/img.jpg" alt=""  class="about-img" >
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="section ">
+        <div class="container">
+          <div style="width: fit-content;">
+            <p>At AUM THE FACILITATOR, we are committed to nurturing healthier and happier communities, starting right at your doorstep. Our exclusive Community Health and Fitness Program is specially designed to cater to the unique wellness needs of Apartment and Villa Residences in Bangalore. We understand that each community has its distinct requirements and preferences when it comes to health and fitness, and our dedicated customer relationship manager is here to personalize our services just for you.</p>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section bg-dark has-bg-image" id="class" aria-label="class"
+      style="background-image: url('./assets/images/classes-bg.png');.class { padding-block-start: calc(var(--section-padding) + 50px); }">
+      
+      <div class="container community-col">
+        <h2 class="h2 section-title text-center" style="color: #fff;">
+          Community Health and Fitness Program for Apartment and Villa Residences
+        </h2>
+        <p class="text">We believe that the well-being of a community begins with the well-being of its residents. Our expert team recognizes the significance of creating a holistic approach to health that involves not just physical fitness but also mental and emotional wellness. Whether you reside in an apartment complex or a villa community, we have carefully curated programs and services to promote a healthier lifestyle among residents of all ages.</p>
+      </div>
+      
+
+          <div class="container class-card" >
+            <h2 class="h2 section-title text-center" style="color: #000;">
+              Our Customized Community Wellness Initiatives
+            </h2>
+            <ul class="class-list has-scrollbar">
+              <li class="scrollbar-item">
+                
+                <section class="section about " id="about" aria-label="about" style="padding: 50px 40px 0;">
+                 
+                 
+                  <!-- Infografic Cards -->
+                  <div class="container-cards">
+                    <div class="card">
+                      <div class="title">
+                        1
+                      </div>
+                      <div class="content">
+                        <h3>On-site Group Fitness Classes</h3>
+                        <div class="icon">
+                          <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <p>Our experienced fitness trainers will organize invigorating group workout sessions within your residential premises. Whether it's a yoga class to start the day with tranquility or a high-energy Zumba session for an evening of fun, we cater to diverse fitness preferences.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="title">
+                        <span>2</span>
+                      </div>
+                      <div class="content">
+                        <h3>Health and Nutrition Workshops</h3>
+                        <div class="icon">
+                          <i class="fas fa-clock"></i>
+                        </div>
+                        <p>Our team of nutrition experts conducts informative workshops that cover various aspects of healthy eating, balanced diets, and maintaining optimum nutrition. These workshops empower residents to make better dietary choices for themselves and their families.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="title">
+                        <span>3</span>
+                      </div>
+                      <div class="content">
+                        <h3>Family Wellness <span>Events</span></h3>
+                        <div class="icon">
+                          <i class="fas fa-user-friends"></i>
+                        </div>
+                        <p>We organize family-centric wellness events that bring all generations together. From family fitness challenges to mindfulness activities, these events strengthen family bonds while promoting health and well-being.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="title">
+                        <span>4</span>
+                      </div>
+                      <div class="content">
+                        <h3>Wellness Seminars and Talks</h3>
+                        <div class="icon">
+                          <i class="fab fa-suse"></i>
+                        </div>
+                        <p>Engaging seminars and talks by health professionals cover topics like stress management, mental well-being, and the importance of regular exercise. These informative sessions create awareness and encourage positive lifestyle changes.</p>
+                      </div>
+                    </div>
+                    
+                    <!-- <div class="card">
+                      <div class="title">
+                        Step<span>05</span>
+                      </div>
+                      <div class="content">
+                        <h3>Heading</h3>
+                        <div class="icon">
+                          <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae inventore velit similique, illum non ullam molestiae perferendis iusto tempora.</p>
+                      </div>
+                    </div> -->
+                  </div>
+                </section>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div
+        class="section footer-top bg-dark has-bg-image"
+        style="background-image: url('./assets/images/footer-bg.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="assets/images/logo2.png"
+                alt="barbell icon"
+                aria-hidden="true"
+              />
+
+              <span class="span" style="line-height: 0.8"
+                >HealthCrew.click<br />
+                <!-- <span style="font-size: small;">The facilitator</span> -->
+              </span>
+            </a>
+
+            <p class="footer-brand-text">
+              Passionate about health, wellness, and community. Experts in
+              specialized services.
+            </p>
+
+            <!-- <div class="wrapper">
+
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Monday - Friday</p>
+
+                <p>7:00Am - 10:00Pm</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                <p>7:00Am - 2:00Pm</p>
+              </li>
+
+            </ul>
+
+          </div> -->
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Links</p>
+            </li>
+
+            <li>
+              <a href="index.html#home" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#class" class="footer-link">Programs</a>
+            </li>
+
+            <li>
+              <a href="index.htmlblog" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Contact Us</p>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+
+              <address class="address footer-link">
+                #18 damodar mdr street , Ulsoor , Banglore , India
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <a href="tel:+919160165178">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon
+                ></a>
+              </div>
+
+              <div>
+                <a href="tel:+919160165178" class="footer-link"
+                  >+91 91601 65178</a
+                >
+
+                <a href="tel:+915552348765" class="footer-link"
+                  >+91 555 234-8765</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="mailto:info@fitlife.com" class="footer-link"
+                  >info@healthcrew.click</a
+                >
+
+                <a href="mailto:services@fitlife.com" class="footer-link"
+                  >services@healthcrew.click</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Newsletter</p>
+            </li>
+
+            <li></li>
+
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2023 HealthCrew.click. All Rights Reserved By AUM The
+            Facilitator
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Privacy Policy</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Terms & Condition</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
