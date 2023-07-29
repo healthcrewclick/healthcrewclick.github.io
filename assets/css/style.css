@@ -1519,6 +1519,32 @@ body {
     padding: 0 150px 50px;
   }
 }
+.community-heading{
+  color: #000000;
+  font-weight: 800;
+}
+.quote-icon{
+  font-size: 8rem;
+  font-family:serif ;
+  color: var(--coquelicot);
+}
+.quote{
+  font-size: 1.9rem;
+  font-weight: 900;
+  /* color: var(--coquelicot); */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lnk{
+  --color: var(--coquelicot);
+  font-weight: 800;
+  text-decoration: solid;
+}
 
 
 @media (max-width:992px) {
