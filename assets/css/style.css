@@ -1509,6 +1509,17 @@ body {
   align-items: end;
   border-radius: 10px;
 }
+.about-section{
+  padding: 100px 0 0;
+}
+
+.community-col{
+  text-align: center;
+  .text{
+    padding: 0 150px 50px;
+  }
+}
+
 
 @media (max-width:992px) {
   .social-list-1 {
@@ -1522,6 +1533,12 @@ body {
     position: relative;
     width: 640px;
     border-radius: 20px;
+  }
+  .community-col{
+    text-align: center;
+    .text{
+      padding: 0 10px 50px;
+    }
   }
   
 }
@@ -1539,20 +1556,16 @@ body {
     width: 320px;
     border-radius: 20px;
   }
-}
-
-
-
-.about-section{
-  padding: 100px 0 0;
-}
-
-.community-col{
-  text-align: center;
-  .text{
-    padding: 0 150px 50px;
+  .community-col{
+    
+    .text{
+      padding: 0 10px 50px;
+    }
   }
 }
+
+
+
 
 
 
