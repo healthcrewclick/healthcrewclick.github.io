@@ -1507,7 +1507,7 @@ body {
   z-index: 0;
   width: 1080px;
   align-items: end;
-  border-radius: 10px;
+  border-radius: 48% 0 0 48%;
 }
 .about-section{
   padding: 100px 0 0;
@@ -1639,7 +1639,8 @@ body {
     .content{
       margin-top: -105px;
       padding: 125px 20px 50px 20px;
-      box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.5);
+      box-shadow: inset 0px 20px 10px -12px var(--coquelicot);
+      /* box-shadow: inset 0px 20px 10px -12px rgba(0,0,0,0.5); */
     }
     
     .icon{
